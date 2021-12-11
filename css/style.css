@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+/* ***************global css style******************* */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Ubuntu Mono', monospace;
+}
+
+.d-flex {
+   display: flex;
+}
+
+.justify-content {
+   justify-content: center;
+}
+
+.align-item {
+   align-items: center;
+}
+
+.btn {
+   margin-top: 1rem;
+   padding: 15px;
+   font-size: 1rem;
+   color: #fff;
+   background-color: blue;
+   border: none;
+   border-radius: 5px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+
+/* ---------------------navbar css style---------------------- */
+.header-section .container {
+   display: flex;
+}
+
+.header-section .logo {
+   font-size: 30px;
+   font-weight: 600;
+   width: 50%;
+   padding: 1rem 0 1rem 6rem;
+
+}
+
+.header-section .logo-color {
+   color: rgba(255, 0, 234, 0.768);
+   margin-left: 0.5rem;
+   font-size: 1.5rem;
+}
+
+.header-section .icons {
+   font-size: 15px;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   width: 50%;
+   padding: 1rem 3rem 1rem 0;
+}
+
+.header-section .icons i {
+   margin: 0.5rem;
+   font-size: 20px;
+}
+
+.row {
+   padding-bottom: 2rem;
+   height: 100vh;
+   width: 100%;
+}
+
+.row img {
+   height: 100vh;
+   width: 100%;
+   background-position: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+}
+
+.row .bg-title {
+   width: 500px;
+   text-transform: capitalize;
+   position: relative;
+   top: 90px;
+   left: 200px;
+   line-height: 2rem;
+   color: rgb(46, 49, 49);
+}
+
+.row .bg-title h1 {
+   font-size: 3rem;
+   font-weight: 600;
+   padding-bottom: 1rem;
+}
+
+.row .bg-title p {
+   font-size: 1rem;
+}
+
+
+.btn:hover {
+   background-color: #fff;
+   color: #000;
+}
+
+/* --------------------------------main section css style--------------------------- */
+.row-list {
+   margin-top: 2rem;
+   display: flex;
+}
+
+.row-list .row-item {
+   padding-left: 1rem;
+   text-align: center;
+   justify-content: center;
+}
+
+.row-list .row-item span {
+   font-size: 5rem;
+   font-weight: 500;
+   color: aqua;
+}
+
+.row-list .row-item h1 {
+   font-size: 1.5rem;
+   font-weight: 500;
+   padding-top: 1rem;
+}
+
+.row-list .row-item p {
+   font-size: 1rem;
+   padding: 1rem 0 1rem 0;
+   line-height: 2rem;
+   text-align: center;
+}
+
+/* builder home product section */
+.row .builder-item {
+   margin-top: 5rem;
+   background-color: azure;
+   height: 100vh;
+   padding-left: 10rem;
+   padding-right: 8rem;
+}
+
+.row .builder-home-item1,
+.row-build-item .build-item2 .build-item2-d {
+   width: 500px;
+   height: 500px;
+   background-color: aqua;
+   text-align: left;
+   padding: 5rem 1rem 0rem 2rem;
+   margin-right: -3rem;
+   margin-top: 4rem;
+}
+
+.row .builder-home-item1 span,.row-build-item .build-item2 .build-item2-d span {
+   font-size: 3rem;
+   font-weight: 500;
+}
+
+.row .builder-home-item1 h2,.row-build-item .build-item2 .build-item2-d h2 {
+   font-size: 2rem;
+   margin: 1rem 0 1rem 0;
+}
+
+.row .builder-home-item1 p,.row-build-item .build-item2 .build-item2-d p {
+   font-size: 1rem;
+   line-height: 30px;
+}
+
+.row .builder-home-item2 img {
+   width: 500px;
+   height: 500px;
+   background-repeat: no-repeat;
+   margin-left: 1rem;
+}
+
+.row-time {
+   margin-top: 7rem;
+}
+
+.row-time .row-num {
+   margin-left: 5rem;
+}
+
+.row-time .row-num .number {
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+.row-time .row-num .num-details {
+   font-size: 1rem;
+   font-weight: 600;
+   margin-left: 1rem;
+   line-height: 1rem;
+}
+
+.row-time hr {
+   margin-top: 2rem;
+   font-weight: bold;
+}
+
+/* scroll item style css */
+.row-slider {
+   margin-top: 5rem;
+   height: 80vh;
+}
+
+.row-slider .row-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.row-slider .row-list .slider-item {
+   margin-right: 2rem;
+   border: 1px solid rgb(179, 161, 161);
+   justify-content: center;
+   text-align: center;
+}
+
+.row-slider .row-list .slider-item img {
+   height: 20rem;
+   width: 20rem;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   background-size: cover;
+}
+
+.row-slider .row-list .slider-item h5 {
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-top: 1rem;
+   color: rgb(118, 113, 113);
+}
+
+.row-slider .row-list .slider-item p {
+   font-size: 1rem;
+   color: rgb(150, 144, 144);
+}
+
+/* builder office csss style */
+
+.row-build-item {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.row-build-item .build-item1 {
+   width: 50%;
+}
+
+.row-build-item .build-item1 img {
+   height:600px;
+   width: 700px;
+   background-color: rgb(255, 231, 200);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+}
+
+.row-build-item .build-item2 {
+   width: 50%;
+   display: flex;
+}
+.row-build-item .build-item2 .build-item2-d{
+   position: absolute;
+}
+.row-build-item .build-item2 .m-top{
+   margin-top: 5rem;
+}
+.row-build-item .build-item2 .build-img{
+   position: relative;
+}
+.row-build-item .build-item2 .build-img img {
+   width: 300px;
+   height: 300px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   margin-top:20rem;
+}
+
+.row-drag .contain-drag{
+   height: 100vh;
+   background-color: blue;
+   /* margin-top: 5rem; */
+   align-items: center;
+   justify-content: center;
+}
+.row-drag .contain-drag .drag-item{
+   border: 2px solid #fff;
+   height: 300px;
+   width: 300px;
+   color: #fff;
+   margin-top: 2rem;
+   margin-right: 2rem;
+   justify-content: center;
+   text-align: center;
+}
