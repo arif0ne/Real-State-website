@@ -288,15 +288,15 @@
    background-repeat: no-repeat;
    background-size: cover;
    object-fit: cover;
-   margin-top:20rem;
+   margin-top:23rem;
+   margin-left: 20rem;
 }
 
 .row-drag .contain-drag{
    height: 100vh;
    background-color: blue;
-   /* margin-top: 5rem; */
-   align-items: center;
-   justify-content: center;
+   margin-top: 5rem;
+   padding-left: 10rem;
 }
 .row-drag .contain-drag .drag-item{
    border: 2px solid #fff;
@@ -305,6 +305,14 @@
    color: #fff;
    margin-top: 2rem;
    margin-right: 2rem;
+   padding: 3rem 1rem 1rem 1rem;
    justify-content: center;
    text-align: center;
+}
+.row-drag .contain-drag .drag-item span{
+   font-size: 2rem;
+}
+.row-drag .contain-drag .drag-item h3{
+   font-size: 3rem;
+   margin: 0.5rem 0 0.5rem 0;
 }
