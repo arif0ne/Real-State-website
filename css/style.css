@@ -158,17 +158,20 @@
    margin-top: 4rem;
 }
 
-.row .builder-home-item1 span,.row-build-item .build-item2 .build-item2-d span {
+.row .builder-home-item1 span,
+.row-build-item .build-item2 .build-item2-d span {
    font-size: 3rem;
    font-weight: 500;
 }
 
-.row .builder-home-item1 h2,.row-build-item .build-item2 .build-item2-d h2 {
+.row .builder-home-item1 h2,
+.row-build-item .build-item2 .build-item2-d h2 {
    font-size: 2rem;
    margin: 1rem 0 1rem 0;
 }
 
-.row .builder-home-item1 p,.row-build-item .build-item2 .build-item2-d p {
+.row .builder-home-item1 p,
+.row-build-item .build-item2 .build-item2-d p {
    font-size: 1rem;
    line-height: 30px;
 }
@@ -259,7 +262,7 @@
 }
 
 .row-build-item .build-item1 img {
-   height:600px;
+   height: 600px;
    width: 700px;
    background-color: rgb(255, 231, 200);
    background-position: center;
@@ -272,15 +275,19 @@
    width: 50%;
    display: flex;
 }
-.row-build-item .build-item2 .build-item2-d{
+
+.row-build-item .build-item2 .build-item2-d {
    position: absolute;
 }
-.row-build-item .build-item2 .m-top{
+
+.row-build-item .build-item2 .m-top {
    margin-top: 5rem;
 }
-.row-build-item .build-item2 .build-img{
+
+.row-build-item .build-item2 .build-img {
    position: relative;
 }
+
 .row-build-item .build-item2 .build-img img {
    width: 300px;
    height: 300px;
@@ -288,17 +295,19 @@
    background-repeat: no-repeat;
    background-size: cover;
    object-fit: cover;
-   margin-top:23rem;
+   margin-top: 23rem;
    margin-left: 20rem;
 }
 
-.row-drag .contain-drag{
+.row-drag .contain-drag {
    height: 100vh;
    background-color: blue;
    margin-top: 5rem;
    padding-left: 10rem;
+   /* position: absolute; */
 }
-.row-drag .contain-drag .drag-item{
+
+.row-drag .contain-drag .drag-item {
    border: 2px solid #fff;
    height: 300px;
    width: 300px;
@@ -309,10 +318,56 @@
    justify-content: center;
    text-align: center;
 }
-.row-drag .contain-drag .drag-item span{
+
+.row-drag .contain-drag .drag-item span {
    font-size: 2rem;
 }
-.row-drag .contain-drag .drag-item h3{
+
+.row-drag .contain-drag .drag-item h3 {
    font-size: 3rem;
    margin: 0.5rem 0 0.5rem 0;
+}
+
+/* Contact Section style */
+.row-contact {
+   height: 100vh;
+   width: 80%;
+   /* position: relative; */
+   /* background-color: blueviolet; */
+}
+
+.row-contact .contact-item {
+   height: 500px;
+   /* margin-top: 8rem; */
+   align-items: center;
+   justify-content: center;
+}
+
+.row-contact .contact-item .left-contact-form {
+   /* width: 50%; */
+   padding: 2rem;
+}
+
+.row-contact .contact-item .left-contact-form .contact-name .name,
+.row-contact .contact-item .left-contact-form .contact-email .email,
+.row-contact .contact-item .left-contact-form .contact-massage .massage {
+   margin: 2rem 2rem 2rem 0;
+   width: 400px;
+   font-size: 1rem;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid black;
+   padding-bottom: 1.5rem;
+}
+
+.row-contact .contact-item .left-contact-form .contact-massage .massage {
+   padding-bottom: 5rem;
+}
+.row-contact .contact-item .right-contact-details{
+   /* padding: 2rem 2rem 2rem 2rem; */
+   background-color: red;
+}
+.row-contact .contact-item .right-contact-details .contact-location-d,
+.row-contact .contact-item .right-contact-details .contact-social-icon{
+   padding: 2rem;
 }
